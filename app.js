@@ -11,7 +11,9 @@ app.set("view engine","hbs");
 //render ra trang chủ (index.hbs
 //get: get method
 app.get("/",(req , res)=>{
-    res.render("index");
+    let name = "Greenwich university";
+    let address = "so 2 Pham Van Bach";
+    res.render("index", { n: name, a: address});
 });
 
 //chạy web server   
