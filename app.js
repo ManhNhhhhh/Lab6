@@ -6,7 +6,7 @@ const port = process.env.PORT||3000;
 //set thư mục chứa view
 app.set("views", path.join(__dirname, "/views"));
 //set view engine (template engine)
-app.set("view engine","hbs");
+app.set("view engine","pug");
 
 //render ra trang chủ (index.hbs
 //get: get method
